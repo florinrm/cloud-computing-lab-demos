@@ -1,1 +1,1 @@
-# cloud-computing-lab-demos
+# Cloud Computing laboratories demos
