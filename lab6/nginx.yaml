@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: nginx # numele pod-ului
+spec:
+    containers: # containerele pod-ului
+        - name: nginx
+          image: nginx:1.14.2 # imaginea de Docker
+          ports: 
+            - containerPort: 80
+
